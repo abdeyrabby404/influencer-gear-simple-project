@@ -16,6 +16,9 @@
 .bg-color {
     background-color: white;
 }
+.pointer{
+    cursor: pointer;
+}
 
 .flex {
     display: flex;
@@ -199,8 +202,38 @@ header{
     margin-bottom: 16px;
 }
 
-
-
+/* footer style  */
+.bg-foot{
+    background-color: #0A0826;
+}
+.info-container{
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+.info{
+    width: 262px;
+    text-align: center;
+    color: white;
+    
+}
+.footer-title{
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+.logo-container > img{
+    width: 32px;
+    height: 32px;
+    margin-right: 16px;
+}
+.footer-subtitle{
+    font-size: 14px;
+    color: #D9DBE1;
+    /* color: red; */
+    /* margin-bottom: 10px;
+    margin-top: 10px; */
+}
 /* Responsive style */
 @media screen and (max-width:576px) {
     header{
